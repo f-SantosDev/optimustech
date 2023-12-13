@@ -1,0 +1,71 @@
+.container__vagas{
+    display: flex;
+    flex-direction: column;
+    padding: 96px 0px;
+    align-items: center;
+    gap: 20px;
+    width: 1440px;
+}
+
+.container__vagas_texto{
+    padding: 4px 12px;
+    color: var(--marron);
+    border-radius: 16px;
+    background-color: rgba(142, 36, 36, 0.05);
+}
+
+.container__vagas__titulo{
+    color: var(--cinza-escuro);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.72px;
+}
+
+.container__vagas_texto-descricao{
+    color: var(--cinza);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.container__vagas__imagem{
+    width: 1216px;
+    height: 400px;
+    flex-shrink: 0;
+    margin: 64px 0 64px 0;
+}
+
+.container__jobs{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.container__jobs__setor{
+    color: var(--cinza-escuro);
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.container__jobs__descricao{
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    border: 1px solid var(--cinza-claro);
+    padding: 24px 24px 28px 24px;
+    width: 768px;
+}
+
+.container__jobs__descricao__titulo{
+    color: var(--cinza-escuro);
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 32px;
+}
+
+.container__jobs__descricaso__contrato{
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+}

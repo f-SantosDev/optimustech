@@ -1,0 +1,68 @@
+.container__rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0;
+    background-color: var(--cinza-medio);
+    width: 1440px;
+}
+
+.container__rodape__formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 32px;
+}
+
+.container__rodape__titulo{
+    color: var(--cinza-escuro);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.72px;
+    margin-bottom: 0.5em;
+}
+
+.container__rodape__texto{
+    color: var(--cinza);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 1.5em;
+}
+
+.container__rodape__cadastro{
+    margin-bottom: 2em;
+    align-items: center;
+}
+
+.contato__email{
+    color: var(--cinza);
+    font-weight: 400;
+    line-height: 24px;
+    padding: 12px 14px 12px 16px;
+    border-radius: 8px;
+    border: 1px solid var(--cinza-email);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    width: 360px;
+    margin-right: 16px;
+}
+
+.container__rodape__botao{
+    background-color: var(--marron);
+    color: var(--branco);
+    line-height: 24px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: 1px solid var(--marron);
+    background: var(--marron);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    cursor: pointer;
+}
+
+.container__rodape__copy-rigth{
+    color: var(--cinza-rodape);
+    font-weight: 400px;
+    line-height: 24px;
+}

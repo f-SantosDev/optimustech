@@ -1,0 +1,54 @@
+.container__review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1440px;
+}
+
+
+.container__review__agrupador{
+    display: flex;
+    flex-direction: column;
+    margin: 0 112px 96px 112px;
+    padding: 64px;
+    align-items: center;
+    gap: 16px;
+    border-radius: 16px;
+    background-color: var(--bege-claro);
+}
+
+.container__review__sub-titulo{
+    color: var(--marron);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.container__review__quote{
+    color: var(--cinza-escuro);
+    text-align: center;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.72px;
+    margin-bottom: 16px;
+}
+
+.container__review__avatar{
+    width: 56px;
+    height: 56px;
+    border-radius: 200px;
+    background: url(../img/Avatar.svg), lightgray 50% / cover no-repeat;
+}
+
+.container__review__nome-funcionario{
+    color: var(--cinza-escuro);
+    line-height: 24px;
+}
+
+.container__review__ocupacao{
+    color: var(--cinza);
+    font-family: 14px;
+    font-weight: 400px;
+    line-height: 20px;
+}
